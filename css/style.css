@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(#041E42, #0000FF) fixed;
+    /*https://www.w3schools.com/css/css3_gradients.asp*/
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 2em;
+    box-shadow: 0 2em 3em rgba(0, 0, 0, 0.5);
+    /*box-shadow code van chatgpt*/
+}
+
+.tokyo-foto {
+    max-width: 33%;
+}
+
+.seoul-foto {
+    display: block;
+    max-width: 30%;
+    margin: 0 auto 1em;
+    /*margin code van chatgpt*/
+}
+
+.newyorkcity-foto {
+    max-width: 30%;
+    margin: 2em;
+}
+
+main {
+    text-align: center;
+    margin: 2em;
+}
+
+p {
+    max-width: 70vw;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+a {
+    background-color: #007BFF;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    text-decoration: none;
+    transition: background 250ms ease;
+}
+
+a:hover {
+    background: grey;
+}
+
+a:focus {
+    background: grey;
+}
+
+ul li a {
+    color: white;
+}
+
+footer {
+    background: #041E42;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
